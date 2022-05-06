@@ -1,0 +1,12 @@
+:root {
+    --cor-de-fundo: #e5e5e5;
+    --cor-azul-forte: #093366;
+    --cor-cinza: #BEC8D8;
+    --cor-branca: #fff;
+    --font-padrao: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
