@@ -10,3 +10,35 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor-de-fundo);
+}
+
+.container__section {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: var(--cor-branca);
+    padding: 3rem;
+}
+
+.container__section-cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__section-cabecalho-titulo {
+    color: var(--cor-azul-forte);
+    font-family: var(--font-padrao);
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.container__section-cabecalho-setas {
+    background-color: var(--cor-azul-forte);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
