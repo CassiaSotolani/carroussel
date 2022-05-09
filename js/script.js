@@ -1,6 +1,6 @@
-const botaoVoltar = document.querySelector('[data-js="carroussel__botao-voltar"]');
-const botaoProximo = document.querySelector('[data-js="carroussel__botao-proximo"]');
-const cards = document.querySelectorAll('[data-js="carroussel__item"]');
+const botaoVoltar = document.querySelector('#carroussel__botao-voltar');
+const botaoProximo = document.querySelector('#carroussel__botao-proximo');
+const cards = document.querySelectorAll('.carroussel__item');
 
 let indiceDosSlidesAtuais = 0;
 

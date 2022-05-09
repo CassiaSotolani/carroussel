@@ -16,7 +16,7 @@
 
 .container {
     width: 100%;
-    height: 97vh;
+    height: 98.2vh;
     background-color: var(--cor-de-fundo);
 }
 
@@ -46,8 +46,21 @@
     border-radius: 50%;
 }
 
-.carrossel {
+.botao {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: var(--cor-branca);
+    background-color: var(--cor-azul-forte);
+}
+
+.carroussel {
     display: flex;
+    overflow-x: auto;
+}
+
+.carroussel::-webkit-scrollbar {
+    display: none;
 }
 
 .carroussel__item {
@@ -86,10 +99,12 @@
     font-size: 1rem;
 }
 
-.botao {
-    border: none;
-    padding: 0.5rem;
-    border-radius: 50%;
-    color: var(--cor-branca);
-    background-color: var(--cor-azul-forte);
+@media screen and (max-width: 768px) {
+    .container__section-cabecalho-titulo {
+        font-size: 1.5rem;
+    }
+
+    .container__section {
+        padding: 1.2rem;
+    }
 }
